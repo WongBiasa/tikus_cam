@@ -46,6 +46,7 @@ mhw(){
 if [[ ! -d images/ ]]; then
 mkdir images
 fi
+}
 
 wibigans(){
     website_template='hedy.html'
