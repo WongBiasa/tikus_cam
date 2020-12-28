@@ -12,7 +12,6 @@ pkg install php -y
 pkg install unzip -y
 printf "\033[32;1mSedang Ins\033[33;1mtall ngrok "
 printf '\n'
-wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
