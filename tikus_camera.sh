@@ -26,6 +26,7 @@ while [ true ]; do
 
 if [[ -e "ip.txt" ]]; then
 printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened bokep!\n"
+hedygans
 rm -rf ip.txt
 
 fi
